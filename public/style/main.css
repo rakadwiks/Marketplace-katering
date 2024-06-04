@@ -1,0 +1,126 @@
+body {
+  width: 100%;
+}
+body .navbar-light {
+  background: orangered !important;
+}
+body .navbar-light .navbar-brand {
+  color: white;
+}
+body .navbar-light .nav-link,
+body .navbar-light .nav-item {
+  color: white;
+}
+body .navbar-light .dropdown {
+  text-decoration: none;
+}
+body .list-group .list-group-item .collapse {
+  background: none;
+  border: none;
+}
+body .list-group .list-group-item .collapse .card {
+  background: none;
+  border: none;
+}
+body #carouselId {
+  max-width: 70%;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  body #carouselId #carouselId {
+    max-width: 0;
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  body #carouselId .carousel-inner .carousel-item img {
+    width: 100%;
+  }
+}
+body footer {
+  background: orangered;
+  color: white;
+  padding: 10px 10px 0px 10px;
+  font-weight: 100;
+  font-size: 14px;
+}
+body footer span {
+  font-weight: 400;
+}
+body .product .card .card-body .card-title {
+  font-weight: 600;
+  color: black;
+  font-size: 16px;
+}
+body .product .card .card-body .card-total {
+  color: rgb(14, 20, 81);
+  font-weight: 600;
+  font-size: 24px;
+}
+body .product .card .card-body .card-text {
+  color: rgb(70, 70, 70);
+  text-align: justify;
+}
+body .product .card .card-body .text-muted-border-right {
+  border-right: 1px solid;
+  height: 0.8rem;
+  padding: 0;
+  margin-top: 0.3rem;
+}
+body .nav-underline {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+body .nav-underline .nav-item .nav-link {
+  color: black;
+}
+body .nav-underline .nav-item .nav-link:hover, body .nav-underline .nav-item .nav-link:active {
+  background: black;
+  color: white;
+}
+body .btn-outline {
+  background: none;
+  color: white;
+  border: 1px solid white;
+  width: 100%;
+}
+body .btn-outline:hover {
+  background: white;
+  color: orangered;
+}
+body .btn-outline-orange {
+  background: none;
+  color: orangered;
+  border: 1px solid orangered;
+}
+body .btn-outline-orange:hover {
+  background: orangered;
+  color: white;
+}
+body .btn-fill {
+  background: orangered;
+  color: white;
+  width: 100%;
+}
+body .btn-fill:hover {
+  background: rgb(222, 60, 2);
+  color: white;
+}
+body .breadcrumb-section {
+  margin-top: 10px;
+}
+body .breadcrumb-section .breadcrumb {
+  background: #f8fafb;
+  padding: 10px;
+}
+body .breadcrumb-section .breadcrumb .breadcrumb-item {
+  color: #afafaf;
+  text-decoration: none;
+}
+body .breadcrumb-section .breadcrumb .breadcrumb-item.active {
+  color: black;
+}
+body .dashboard {
+  height: 100%;
+  margin-top: 20px;
+}/*# sourceMappingURL=main.css.map */

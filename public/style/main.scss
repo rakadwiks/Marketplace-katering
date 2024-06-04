@@ -1,0 +1,188 @@
+body {
+    width: 100%;
+
+    .navbar-light {
+        background: orangered !important;
+
+        .navbar-brand {
+            color: white;
+        }
+
+        .nav-link,
+        .nav-item {
+            color: white;
+        }
+
+        .dropdown {
+            text-decoration: none;
+        }
+    }
+
+    .list-group {
+        .list-group-item {
+            .collapse {
+                background: none;
+                border: none;
+
+                .card {
+                    background: none;
+                    border: none;
+                }
+            }
+        }
+    }
+
+    #carouselId {
+        max-width: 70%;
+        margin-top: 20px;
+
+        @media screen and (min-width:768px) {
+            #carouselId {
+                max-width: 0;
+                margin-top: 0;
+            }
+
+        }
+
+        .carousel-inner {
+
+
+            .carousel-item {
+
+                @media screen and (min-width:768px) {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        background: orangered;
+        color: white;
+        padding: 10px 10px 0px 10px;
+        font-weight: 100;
+        font-size: 14px;
+
+        span {
+            font-weight: 400;
+        }
+    }
+
+    // PRODUCT CONTENT //
+    .product {
+        // background: #f8fafb;
+        // border-radius: 100px 0px 100px 0px;
+
+        .card {
+            .card-body {
+                .card-title {
+                    font-weight: 600;
+                    color: black;
+                    font-size: 16px;
+                }
+
+                .card-total {
+                    color: rgb(14, 20, 81);
+                    font-weight: 600;
+                    font-size: 24px;
+                }
+
+                .card-text {
+                    color: rgb(70, 70, 70);
+                    text-align: justify;
+                }
+
+                .text-muted-border-right {
+                    border-right: 1px solid;
+                    height: 0.8rem;
+                    padding: 0;
+                    margin-top: 0.3rem;
+                }
+            }
+        }
+    }
+
+    .nav-underline {
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        .nav-item {
+            .nav-link {
+                color: black;
+
+                &:hover,
+                &:active {
+                    background: black;
+                    color: white;
+
+                }
+
+            }
+        }
+
+
+    }
+
+    // Button //
+
+    .btn-outline {
+        background: none;
+        color: white;
+        border: 1px solid white;
+        width: 100%;
+
+        &:hover {
+            background: white;
+            color: orangered;
+        }
+    }
+
+    .btn-outline-orange {
+        background: none;
+        color: orangered;
+        border: 1px solid orangered;
+
+        &:hover {
+            background: orangered;
+            color: white;
+        }
+    }
+
+    .btn-fill {
+        background: orangered;
+        color: white;
+        width: 100%;
+
+        &:hover {
+            background: rgb(222, 60, 2);
+            color: white;
+        }
+    }
+
+    // BELANJA //
+
+    .breadcrumb-section {
+        margin-top: 10px;
+
+        .breadcrumb {
+            background: #f8fafb;
+            padding: 10px;
+
+            .breadcrumb-item {
+                color: #afafaf;
+                text-decoration: none;
+
+                &.active {
+                    color: black;
+                }
+            }
+        }
+    }
+
+    .dashboard {
+        height: 100%;
+        margin-top: 20px;
+    }
+}
